@@ -1,0 +1,55 @@
+<!DOCTYPE html> <!-- Declares the document type as HTML5 -->
+<html lang="en"> <!-- Specifies the document's language as English -->
+<head>
+    <meta charset="UTF-8"> <!-- Sets the character encoding to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Defines the viewport settings for responsive design -->
+    <title>Document</title> <!-- Sets the title of the webpage -->
+    <link rel="stylesheet" href="/dist/output.css"> <!-- Links an external CSS stylesheet for styling -->
+</head>
+<body>
+
+    <!-- This div contains the background image and logo -->
+    <div class="bg-cover bg-no-repeat bg-fixed bg-center w-full h-full absolute" style="background-image: url(img/background.jpg);">
+        <img class="w-14 h-14 mt-5 ml-5" src="img/logo.png" alt="Logo" class="logo"> <!-- Displays the logo image -->
+
+        <!-- This is an unordered list for navigation links -->
+        <ul class="flex flex-row justify-evenly text-neutral-50 text-2xl hover:to-white">
+            <li class="hover:text-white hover:bg-gray-950 hover:cursor-pointer" a>Home</li> <!-- Home link -->
+            <li class="hover:text-white hover:bg-gray-950 hover:cursor-pointer">Travel</li> <!-- Travel link -->
+            <li class="hover:text-white hover:bg-gray-950 hover:cursor-pointer">Blogs</li> <!-- Blogs link -->
+            <li class="hover:text-white hover:bg-gray-950 hover:cursor-pointer">Support</li> <!-- Support link -->
+        </ul>
+
+        <!-- Heading with a link to explore Iceland -->
+        <h1 class="text-slate-950 text-center mt-40 text-6xl hover:text-white hover:cursor-pointer"> Explore Iceland</h1>
+
+        <!-- This div contains images with links -->
+        <div class="flex absolute bottom-0 left-0 justify-between">
+            <!-- Image with a link to "kirkjufell.html" -->
+            <div  class="h-6 w-1/4 mb-64">
+                <a href="kirkjufell.html">
+                    <img class="rounded-2xl transform hover:scale-50 transition-transform duration-300" src="img/kirkjufell.jfif" alt="church">
+                </a>
+            </div>
+            <!-- Image with a link to "hallgrímskirkja.html" -->
+            <div  class="h-6 w-1/4 mb-56">
+                <a href="hallgrímskirkja.html">
+                    <img class="rounded-2xl transform hover:scale-50 transition-transform duration-300" src="img/hall.jfif" alt="church">
+                </a>
+            </div>
+            <!-- Image with a link to "godafoss.html" -->
+            <div  class="h-6 w-1/4 mb-56">
+                <a href="godafoss.html">
+                    <img class="rounded-2xl transform hover:scale-50 transition-transform duration-300" src="img/godafoss.jfif" alt="church">
+                </a>
+            </div>
+            <!-- Image with a link to "gullfoss.html" -->
+            <div  class="h-6 w-1/4 mb-56">
+                <a href="gullfoss.html">
+                    <img class="rounded-2xl transform hover:scale-50 transition-transform duration-300" src="img/gullfoss1.jpeg" alt="church">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
